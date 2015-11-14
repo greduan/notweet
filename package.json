@@ -1,0 +1,23 @@
+{
+  "name": "notweet",
+  "version": "0.0.1",
+  "description": "CLI Twitter Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greduan/notweet.git"
+  },
+  "author": "Eduardo Lavaque <me@greduan.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greduan/notweet/issues"
+  },
+  "homepage": "https://github.com/greduan/notweet#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "twit": "^2.1.1"
+  }
+}
