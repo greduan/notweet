@@ -2,12 +2,11 @@
 
 var path = require('path')
 
-var TweetsContainer = require(path.join(__dirname, 'lib/TweetsContainer.js'))
+var Timeline = require(path.join(__dirname, 'lib/Timeline.js'))
 var Screen = require(path.join(__dirname, 'lib/Screen.js'))
 
 var screen = Screen(),
-  tweetsContainer = TweetsContainer(screen)
+  timeline = Timeline()
 
-screen.append(tweetsContainer.element)
+screen.append(timeline)
 screen.render()
-tweetsContainer.getHomeTimeline()
