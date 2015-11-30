@@ -18,6 +18,7 @@
   "homepage": "https://github.com/greduan/notweet#readme",
   "dependencies": {
     "blessed": "^0.1.81",
-    "twit": "^2.1.1"
+    "twit": "^2.1.1",
+    "word-wrap": "^1.1.0"
   }
 }
